@@ -1,0 +1,1063 @@
+2024-04-10 14:18:36,233 13208 INFO ? odoo: Odoo version 16.0-20231229 
+2024-04-10 14:18:36,233 13208 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-04-10 14:18:36,233 13208 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\16.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-04-10 14:18:36,233 13208 INFO ? odoo: database: openpg@localhost:5432 
+2024-04-10 14:18:37,719 13208 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-04-10 14:18:38,164 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,165 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,166 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,166 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,167 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,168 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,168 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,169 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,170 13208 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "D:\Odoo\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-04-10 14:18:38,323 13208 INFO ? odoo.service.server: Initiating shutdown 
+2024-04-10 14:18:38,323 13208 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-04-10 14:18:43,482 5976 INFO ? odoo: Odoo version 16.0-20231229 
+2024-04-10 14:18:43,482 5976 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-04-10 14:18:43,482 5976 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\16.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-04-10 14:18:43,482 5976 INFO ? odoo: database: openpg@localhost:5432 
+2024-04-10 14:18:43,616 5976 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-04-10 14:18:43,813 5976 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-6RU5S41:8069 
+2024-04-10 14:19:17,721 5976 ERROR ? odoo.modules.loading: Database test not initialized, you can force it with `-i base` 
+2024-04-10 14:19:17,721 5976 INFO ? odoo.modules.registry: Registry loaded in 0.175s 
+2024-04-10 14:19:17,722 5976 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:19:17,723 5976 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:19:17] "GET / HTTP/1.1" 500 - 8 0.025 0.288
+2024-04-10 14:19:31,060 5976 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:19:31,061 5976 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:19:31] "GET / HTTP/1.1" 500 - 2 0.004 0.141
+2024-04-10 14:19:43,859 5976 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:19:43,860 5976 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:19:44,898 5976 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:19:44,899 5976 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:19:46,632 5976 INFO ? odoo.service.server: Initiating shutdown 
+2024-04-10 14:19:46,632 5976 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-04-10 14:19:46,936 5976 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2024-04-10 14:19:50,339 8768 INFO ? odoo: Odoo version 16.0-20231229 
+2024-04-10 14:19:50,339 8768 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-04-10 14:19:50,339 8768 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\16.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-04-10 14:19:50,339 8768 INFO ? odoo: database: openpg@localhost:5432 
+2024-04-10 14:19:50,478 8768 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-04-10 14:19:50,687 8768 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-6RU5S41:8069 
+2024-04-10 14:19:52,939 8768 ERROR ? odoo.modules.loading: Database test not initialized, you can force it with `-i base` 
+2024-04-10 14:19:52,939 8768 INFO ? odoo.modules.registry: Registry loaded in 0.060s 
+2024-04-10 14:19:52,940 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:19:52,941 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:19:52] "GET / HTTP/1.1" 500 - 8 0.015 0.096
+2024-04-10 14:19:53,524 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:19:53,525 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:19:53] "GET / HTTP/1.1" 500 - 2 0.005 0.035
+2024-04-10 14:20:50,723 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:20:50,724 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:20:51,762 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:20:51,762 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:21:50,724 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:21:50,724 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:21:52,774 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:21:52,774 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:22:34,112 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:34,112 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:34] "GET / HTTP/1.1" 500 - 2 0.005 0.053
+2024-04-10 14:22:34,172 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:34,172 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:34] "GET /favicon.ico HTTP/1.1" 500 - 2 0.005 0.045
+2024-04-10 14:22:34,852 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:34,853 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:34] "GET / HTTP/1.1" 500 - 2 0.006 0.135
+2024-04-10 14:22:34,993 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:34,993 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:34] "GET / HTTP/1.1" 500 - 2 0.004 0.036
+2024-04-10 14:22:35,590 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:35,591 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:35] "GET / HTTP/1.1" 500 - 2 0.004 0.143
+2024-04-10 14:22:36,106 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:36,107 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:36] "GET / HTTP/1.1" 500 - 2 0.005 0.055
+2024-04-10 14:22:36,809 8768 ERROR test odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 1591, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "D:\Odoo\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "D:\Odoo\server\odoo\http.py", line 1603, in _serve_ir_http
+    ir_http = self.registry['ir.http']
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\http.py", line 2005, in __call__
+    response = request._serve_db()
+  File "D:\Odoo\server\odoo\http.py", line 1595, in _serve_db
+    exc.error_response = self.registry['ir.http']._handle_error(exc)
+  File "D:\Odoo\server\odoo\modules\registry.py", line 190, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-04-10 14:22:36,810 8768 INFO test werkzeug: 127.0.0.1 - - [10/Apr/2024 14:22:36] "GET / HTTP/1.1" 500 - 2 0.004 0.052
+2024-04-10 14:22:50,726 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:22:50,726 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:22:53,786 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:22:53,787 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:23:50,728 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:23:50,729 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:23:54,801 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:23:54,802 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:24:50,732 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:24:50,733 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:24:55,815 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:24:55,816 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:25:50,733 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:25:50,734 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:25:56,827 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:25:56,827 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:26:50,735 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:26:50,736 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:26:57,840 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:26:57,840 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:27:50,737 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:27:50,738 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:27:58,852 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:27:58,853 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:28:50,738 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:28:50,739 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:28:59,866 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:28:59,866 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:29:50,739 8768 ERROR test odoo.sql_db: bad query: 
+            SELECT latest_version
+            FROM ir_module_module
+             WHERE name='base'
+        
+ERROR: no existe la relación «ir_module_module»
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-04-10 14:29:50,740 8768 WARNING test odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database test. 
+2024-04-10 14:29:54,313 8768 INFO ? odoo.service.server: Initiating shutdown 
+2024-04-10 14:29:54,313 8768 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-04-10 14:29:54,776 8768 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2024-04-10 14:30:14,274 11740 INFO ? odoo: Odoo version 16.0-20231229 
+2024-04-10 14:30:14,274 11740 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-04-10 14:30:14,274 11740 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\16.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-04-10 14:30:14,274 11740 INFO ? odoo: database: odoo@localhost:5432 
+2024-04-10 14:30:14,425 11740 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-04-10 14:30:14,683 11740 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-6RU5S41:8069 
+2024-04-10 14:30:16,378 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:16] "GET / HTTP/1.1" 303 - 1 0.005 0.051
+2024-04-10 14:30:16,460 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:16] "GET /web HTTP/1.1" 303 - 2 0.010 0.069
+2024-04-10 14:30:17,539 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:17] "GET /web/database/selector HTTP/1.1" 200 - 2 0.009 1.068
+2024-04-10 14:30:17,705 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:17] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.006 0.144
+2024-04-10 14:30:17,757 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:17] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.007 0.194
+2024-04-10 14:30:17,757 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:17] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.006 0.186
+2024-04-10 14:30:17,764 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:30:17] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.007 0.126
+2024-04-10 14:31:11,866 11740 INFO None odoo.service.db: Create database `taller_odoo`. 
+2024-04-10 14:31:13,200 11740 INFO taller_odoo odoo.modules.loading: loading 1 modules... 
+2024-04-10 14:31:13,200 11740 INFO taller_odoo odoo.modules.loading: Loading module base (1/1) 
+2024-04-10 14:31:13,225 11740 INFO taller_odoo odoo.modules.registry: module base: creating or updating database tables 
+2024-04-10 14:31:13,696 11740 INFO taller_odoo odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-04-10 14:31:13,696 11740 INFO taller_odoo odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-04-10 14:31:13,696 11740 INFO taller_odoo odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-04-10 14:31:13,883 11740 INFO taller_odoo odoo.models: Prepare computation of res.partner.user_id 
+2024-04-10 14:31:13,883 11740 INFO taller_odoo odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-04-10 14:31:13,883 11740 INFO taller_odoo odoo.models: Prepare computation of res.partner.display_name 
+2024-04-10 14:31:13,884 11740 INFO taller_odoo odoo.models: Prepare computation of res.partner.company_registry 
+2024-04-10 14:31:13,884 11740 INFO taller_odoo odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-04-10 14:31:13,884 11740 INFO taller_odoo odoo.models: Prepare computation of res.partner.partner_share 
+2024-04-10 14:31:13,946 11740 INFO taller_odoo odoo.models: Prepare computation of res.currency.decimal_places 
+2024-04-10 14:31:13,988 11740 INFO taller_odoo odoo.models: Prepare computation of res.company.logo_web 
+2024-04-10 14:31:14,031 11740 INFO taller_odoo odoo.models: Prepare computation of res.users.signature 
+2024-04-10 14:31:14,031 11740 INFO taller_odoo odoo.models: Prepare computation of res.users.share 
+2024-04-10 14:31:15,873 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_bank.xml 
+2024-04-10 14:31:15,881 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res.lang.csv 
+2024-04-10 14:31:15,928 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-04-10 14:31:15,956 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-04-10 14:31:16,026 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-04-10 14:31:16,437 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-04-10 14:31:16,450 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-04-10 14:31:17,503 11740 INFO taller_odoo odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-04-10 14:31:17,511 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-04-10 14:31:17,926 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-04-10 14:31:17,937 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-04-10 14:31:17,945 11740 INFO taller_odoo odoo.modules.loading: loading base/security/base_groups.xml 
+2024-04-10 14:31:18,178 11740 INFO taller_odoo odoo.modules.loading: loading base/security/base_security.xml 
+2024-04-10 14:31:18,280 11740 INFO taller_odoo odoo.modules.loading: loading base/views/base_menus.xml 
+2024-04-10 14:31:18,367 11740 INFO taller_odoo odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-04-10 14:31:18,384 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-04-10 14:31:18,393 11740 INFO taller_odoo odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-04-10 14:31:19,341 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-04-10 14:31:19,456 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-04-10 14:31:19,474 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-04-10 14:31:19,492 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-04-10 14:31:19,526 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-04-10 14:31:19,545 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-04-10 14:31:19,565 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-04-10 14:31:19,588 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-04-10 14:31:19,746 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-04-10 14:31:19,769 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-04-10 14:31:19,795 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-04-10 14:31:19,817 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-04-10 14:31:19,837 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-04-10 14:31:19,885 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-04-10 14:31:19,906 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-04-10 14:31:19,912 11740 INFO taller_odoo odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-04-10 14:31:19,917 11740 INFO taller_odoo odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-04-10 14:31:19,926 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-04-10 14:31:19,946 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-04-10 14:31:19,955 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-04-10 14:31:20,030 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-04-10 14:31:20,097 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-04-10 14:31:20,162 11740 INFO taller_odoo odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-04-10 14:31:20,166 11740 INFO taller_odoo odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-04-10 14:31:20,172 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-04-10 14:31:20,184 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-04-10 14:31:20,197 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-04-10 14:31:20,209 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-04-10 14:31:20,228 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-04-10 14:31:20,234 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-04-10 14:31:20,246 11740 INFO taller_odoo odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-04-10 14:31:20,294 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-04-10 14:31:20,298 11740 INFO taller_odoo odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-04-10 14:31:20,311 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-04-10 14:31:20,334 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-04-10 14:31:20,356 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-04-10 14:31:20,379 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-04-10 14:31:20,490 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-04-10 14:31:20,520 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-04-10 14:31:20,556 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-04-10 14:31:20,592 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-04-10 14:31:20,703 11740 INFO taller_odoo odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-04-10 14:31:20,724 11740 INFO taller_odoo odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-04-10 14:31:20,732 11740 INFO taller_odoo odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-04-10 14:31:20,758 11740 INFO taller_odoo odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-04-10 14:31:20,780 11740 INFO taller_odoo odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-04-10 14:31:20,908 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module base: loading translation file es for language es_ES 
+2024-04-10 14:31:21,615 11740 INFO taller_odoo odoo.modules.loading: Module base loaded in 8.42s, 7889 queries (+7889 other) 
+2024-04-10 14:31:21,615 11740 INFO taller_odoo odoo.modules.loading: 1 modules loaded in 8.42s, 7889 queries (+7889 extra) 
+2024-04-10 14:31:21,656 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module base: loading translation file es for language es_ES 
+2024-04-10 14:31:22,362 11740 INFO taller_odoo odoo.modules.loading: updating modules list 
+2024-04-10 14:31:22,362 11740 INFO taller_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-04-10 14:31:22,946 11740 INFO taller_odoo odoo.modules.loading: loading 8 modules... 
+2024-04-10 14:31:22,947 11740 INFO taller_odoo odoo.modules.loading: Loading module web (2/8) 
+2024-04-10 14:31:22,968 11740 INFO taller_odoo odoo.modules.registry: module web: creating or updating database tables 
+2024-04-10 14:31:23,479 11740 INFO taller_odoo odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-04-10 14:31:23,494 11740 INFO taller_odoo odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-04-10 14:31:23,546 11740 INFO taller_odoo odoo.modules.loading: loading web/views/report_templates.xml 
+2024-04-10 14:31:23,626 11740 INFO taller_odoo odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-04-10 14:31:23,638 11740 INFO taller_odoo odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-04-10 14:31:23,644 11740 INFO taller_odoo odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-04-10 14:31:23,651 11740 INFO taller_odoo odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-04-10 14:31:23,657 11740 INFO taller_odoo odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-04-10 14:31:23,665 11740 INFO taller_odoo odoo.modules.loading: loading web/data/report_layout.xml 
+2024-04-10 14:31:23,698 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web: loading translation file es for language es_ES 
+2024-04-10 14:31:23,786 11740 INFO taller_odoo odoo.modules.loading: Module web loaded in 0.84s, 891 queries (+891 other) 
+2024-04-10 14:31:23,786 11740 INFO taller_odoo odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-04-10 14:31:23,836 11740 INFO taller_odoo odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-04-10 14:31:23,900 11740 INFO taller_odoo odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-04-10 14:31:23,927 11740 INFO taller_odoo odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-04-10 14:31:23,937 11740 INFO taller_odoo odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-04-10 14:31:23,946 11740 INFO taller_odoo odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-04-10 14:31:23,980 11740 INFO taller_odoo odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-04-10 14:31:23,986 11740 INFO taller_odoo odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-04-10 14:31:23,997 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module auth_totp: loading translation file es for language es_ES 
+2024-04-10 14:31:24,022 11740 INFO taller_odoo odoo.modules.loading: Module auth_totp loaded in 0.24s, 180 queries (+180 other) 
+2024-04-10 14:31:24,022 11740 INFO taller_odoo odoo.modules.loading: Loading module base_import (4/8) 
+2024-04-10 14:31:24,068 11740 INFO taller_odoo odoo.modules.registry: module base_import: creating or updating database tables 
+2024-04-10 14:31:24,882 11740 INFO taller_odoo odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-04-10 14:31:24,915 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module base_import: loading translation file es for language es_ES 
+2024-04-10 14:31:24,983 11740 INFO taller_odoo odoo.modules.loading: Module base_import loaded in 0.96s, 895 queries (+895 other) 
+2024-04-10 14:31:24,983 11740 INFO taller_odoo odoo.modules.loading: Loading module bus (5/8) 
+2024-04-10 14:31:25,033 11740 INFO taller_odoo odoo.modules.registry: module bus: creating or updating database tables 
+2024-04-10 14:31:25,154 11740 INFO taller_odoo odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-04-10 14:31:25,170 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module bus: loading translation file es for language es_ES 
+2024-04-10 14:31:25,183 11740 INFO taller_odoo odoo.modules.loading: Module bus loaded in 0.20s, 107 queries (+107 other) 
+2024-04-10 14:31:25,183 11740 INFO taller_odoo odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-04-10 14:31:25,210 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file es for language es_ES 
+2024-04-10 14:31:25,219 11740 INFO taller_odoo odoo.modules.loading: Module web_kanban_gauge loaded in 0.04s, 13 queries (+13 other) 
+2024-04-10 14:31:25,219 11740 INFO taller_odoo odoo.modules.loading: Loading module web_tour (7/8) 
+2024-04-10 14:31:25,241 11740 INFO taller_odoo odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-04-10 14:31:25,274 11740 INFO taller_odoo odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-04-10 14:31:25,284 11740 INFO taller_odoo odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-04-10 14:31:25,292 11740 INFO taller_odoo odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-04-10 14:31:25,313 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web_tour: loading translation file es for language es_ES 
+2024-04-10 14:31:25,329 11740 INFO taller_odoo odoo.modules.loading: Module web_tour loaded in 0.11s, 108 queries (+108 other) 
+2024-04-10 14:31:25,329 11740 INFO taller_odoo odoo.modules.loading: Loading module web_editor (8/8) 
+2024-04-10 14:31:25,419 11740 INFO taller_odoo odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-04-10 14:31:26,068 11740 INFO taller_odoo odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-04-10 14:31:26,084 11740 INFO taller_odoo odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-04-10 14:31:26,090 11740 INFO taller_odoo odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-04-10 14:31:26,121 11740 INFO taller_odoo odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-04-10 14:31:26,167 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web_editor: loading translation file es for language es_ES 
+2024-04-10 14:31:26,232 11740 INFO taller_odoo odoo.modules.loading: Module web_editor loaded in 0.90s, 827 queries (+827 other) 
+2024-04-10 14:31:26,232 11740 INFO taller_odoo odoo.modules.loading: 8 modules loaded in 3.29s, 3021 queries (+3021 extra) 
+2024-04-10 14:31:26,469 11740 INFO taller_odoo odoo.modules.loading: Modules loaded. 
+2024-04-10 14:31:26,477 11740 INFO taller_odoo odoo.modules.registry: Registry loaded in 13.292s 
+2024-04-10 14:31:26,481 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module base: loading translation file es for language es_ES 
+2024-04-10 14:31:26,795 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web: loading translation file es for language es_ES 
+2024-04-10 14:31:26,852 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module auth_totp: loading translation file es for language es_ES 
+2024-04-10 14:31:26,858 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module base_import: loading translation file es for language es_ES 
+2024-04-10 14:31:26,868 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module bus: loading translation file es for language es_ES 
+2024-04-10 14:31:26,871 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web_editor: loading translation file es for language es_ES 
+2024-04-10 14:31:26,898 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file es for language es_ES 
+2024-04-10 14:31:26,899 11740 INFO taller_odoo odoo.addons.base.models.ir_module: module web_tour: loading translation file es for language es_ES 
+2024-04-10 14:31:28,350 11740 INFO taller_odoo odoo.addons.base.models.res_users: Login successful for db:taller_odoo login:admin from 127.0.0.1 
+2024-04-10 14:31:28,358 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:28] "POST /web/database/create HTTP/1.1" 303 - 15895 8.916 9.501
+2024-04-10 14:31:28,368 11740 INFO taller_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-04-10 14:31:28,461 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:28] "GET /web HTTP/1.1" 303 - 6 0.003 0.098
+2024-04-10 14:31:36,891 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:36] "GET /web/login HTTP/1.1" 200 - 68 0.033 8.393
+2024-04-10 14:31:36,967 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:36] "GET /web/assets/15-f47ada0/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.003 0.057
+2024-04-10 14:31:37,014 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:37] "GET /web/assets/16-b123120/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.009 0.097
+2024-04-10 14:31:37,021 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:37] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.007 0.045
+2024-04-10 14:31:37,431 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:37] "GET /web/assets/17-1b4dddc/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.005 0.400
+2024-04-10 14:31:38,065 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:38] "GET /web/webclient/translations/1712759497631 HTTP/1.1" 200 - 3 0.005 0.428
+2024-04-10 14:31:38,077 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:38] "GET /web/webclient/translations/1712759498070 HTTP/1.1" 200 - 3 0.002 0.004
+2024-04-10 14:31:38,094 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:38] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.001
+2024-04-10 14:31:56,471 11740 INFO taller_odoo odoo.addons.base.models.res_users: Login failed for db:taller_odoo login:admin from 127.0.0.1 
+2024-04-10 14:31:56,521 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:56] "POST /web/login HTTP/1.1" 200 - 6 0.008 0.561
+2024-04-10 14:31:56,548 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:56] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2024-04-10 14:31:56,552 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:56] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.000 0.005
+2024-04-10 14:31:56,556 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:56] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.002
+2024-04-10 14:31:56,756 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:56] "GET /web/webclient/translations/1712759516747 HTTP/1.1" 200 - 3 0.003 0.005
+2024-04-10 14:31:56,766 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:31:56] "GET /web/webclient/translations/1712759516760 HTTP/1.1" 200 - 3 0.001 0.005
+2024-04-10 14:32:06,823 11740 INFO taller_odoo odoo.addons.base.models.res_users: Login successful for db:taller_odoo login:admin from 127.0.0.1 
+2024-04-10 14:32:06,846 11740 INFO taller_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-04-10 14:32:06,847 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:06] "POST /web/login HTTP/1.1" 303 - 42 0.055 0.578
+2024-04-10 14:32:18,518 11740 INFO taller_odoo odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-04-10 14:32:21,153 11740 INFO taller_odoo odoo.addons.base.models.ir_attachment: filestore gc 19 checked, 0 removed 
+2024-04-10 14:32:21,211 11740 INFO taller_odoo odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2024-04-10 14:32:21,242 11740 INFO taller_odoo odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-04-10 14:32:21,258 11740 INFO taller_odoo odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-04-10 14:32:21,412 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web HTTP/1.1" 200 - 108 0.111 14.451
+2024-04-10 14:32:21,497 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/assets/18-f39fb73/web.assets_common.min.css HTTP/1.1" 200 - 4 0.004 0.063
+2024-04-10 14:32:21,500 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/assets/19-f7e0bbf/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.004 0.064
+2024-04-10 14:32:21,522 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/assets/22-e61323b/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.006 0.077
+2024-04-10 14:32:21,635 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/assets/21-f7e0bbf/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.193
+2024-04-10 14:32:21,880 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/assets/20-f39fb73/web.assets_common.min.js HTTP/1.1" 200 - 4 0.003 0.442
+2024-04-10 14:32:21,892 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/webclient/load_menus/fe8efa0115a512e639c3757b8a7bd45c55dc85c40568a38b210d3533415651c6 HTTP/1.1" 200 - 2 0.001 0.005
+2024-04-10 14:32:21,895 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:21] "GET /web/webclient/translations/5e8917d327ccd34c675678811a32c61c412e6b7d?lang=es_ES HTTP/1.1" 200 - 3 0.003 0.003
+2024-04-10 14:32:22,250 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /web/static/img/mobile-icons/android-192x192.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-04-10 14:32:22,264 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /web/webclient/locale/es_ES HTTP/1.1" 200 - 1 0.000 0.004
+2024-04-10 14:32:22,328 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 9 0.005 0.051
+2024-04-10 14:32:22,329 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.004
+2024-04-10 14:32:22,353 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2024-04-10 14:32:22,357 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.023 0.014
+2024-04-10 14:32:22,361 11740 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-04-10 14:32:22,424 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "POST /web/action/load HTTP/1.1" 200 - 11 0.041 0.061
+2024-04-10 14:32:22,451 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.007 0.017
+2024-04-10 14:32:22,455 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.003 0.008
+2024-04-10 14:32:22,505 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.042 0.033
+2024-04-10 14:32:22,532 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.004
+2024-04-10 14:32:22,556 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.023 0.012
+2024-04-10 14:32:22,573 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/avatar.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-04-10 14:32:22,634 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-04-10 14:32:22,640 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-10 14:32:22,646 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-10 14:32:22,651 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-04-10 14:32:22,652 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-10 14:32:22,656 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-10 14:32:22,658 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-10 14:32:22,663 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-10 14:32:22,665 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,670 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-04-10 14:32:22,671 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,675 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,680 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-10 14:32:22,682 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,684 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-04-10 14:32:22,688 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-10 14:32:22,691 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-04-10 14:32:22,695 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-04-10 14:32:22,698 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-04-10 14:32:22,703 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-10 14:32:22,705 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-10 14:32:22,708 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-10 14:32:22,712 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-10 14:32:22,714 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,718 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,722 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-10 14:32:22,723 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-10 14:32:22,726 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,731 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,732 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-10 14:32:22,736 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,741 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-04-10 14:32:22,743 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,744 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-10 14:32:22,758 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-10 14:32:22,765 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-04-10 14:32:22,770 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.021
+2024-04-10 14:32:22,771 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-04-10 14:32:22,773 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.019
+2024-04-10 14:32:22,785 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.025
+2024-04-10 14:32:22,786 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2024-04-10 14:32:22,795 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,798 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,804 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-10 14:32:22,804 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-10 14:32:22,805 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,812 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-10 14:32:22,812 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-10 14:32:22,814 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-10 14:32:22,819 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-10 14:32:22,820 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-10 14:32:22,824 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-04-10 14:32:22,825 11740 INFO ? werkzeug: 127.0.0.1 - - [10/Apr/2024 14:32:22] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-04-10 14:33:28,071 11740 INFO taller_odoo werkzeug: 127.0.0.1 - - [10/Apr/2024 14:33:28] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
